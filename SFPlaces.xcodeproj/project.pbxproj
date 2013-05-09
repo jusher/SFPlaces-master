@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		61E1C8F5173B47FB008F6815 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 61E1C8F4173B47FB008F6815 /* locations.json */; };
+		61DE0396173B4DDA005E585A /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 61DE0395173B4DDA005E585A /* locations.json */; };
 		DE2B23601730BC07006233FC /* MapToDetailSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2B235F1730BC07006233FC /* MapToDetailSegue.m */; };
 		DE6B7134172220F300E53A23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6B7133172220F200E53A23 /* UIKit.framework */; };
 		DE6B7136172220F300E53A23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6B7135172220F300E53A23 /* Foundation.framework */; };
@@ -49,7 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		61E1C8F4173B47FB008F6815 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = locations.json; path = ../locations.json; sourceTree = "<group>"; };
+		61DE0395173B4DDA005E585A /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = locations.json; path = SFPlaces/locations.json; sourceTree = "<group>"; };
 		DE2B235E1730BC07006233FC /* MapToDetailSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapToDetailSegue.h; sourceTree = "<group>"; };
 		DE2B235F1730BC07006233FC /* MapToDetailSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapToDetailSegue.m; sourceTree = "<group>"; };
 		DE6B7130172220F200E53A23 /* SFPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,6 +120,7 @@
 		DE6B7127172220F200E53A23 = {
 			isa = PBXGroup;
 			children = (
+				61DE0395173B4DDA005E585A /* locations.json */,
 				DE6B7139172220F300E53A23 /* SFPlaces */,
 				DE6B7168172220F300E53A23 /* SFPlacesTests */,
 				DE6B7132172220F200E53A23 /* Frameworks */,
@@ -186,7 +187,6 @@
 				DEA6DF761728914F007FBE0F /* MapAnnotation.m */,
 				DE2B235E1730BC07006233FC /* MapToDetailSegue.h */,
 				DE2B235F1730BC07006233FC /* MapToDetailSegue.m */,
-				61E1C8F4173B47FB008F6815 /* locations.json */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -290,7 +290,7 @@
 				DE6B7154172220F300E53A23 /* first@2x.png in Resources */,
 				DE6B7159172220F300E53A23 /* second.png in Resources */,
 				DE6B715B172220F300E53A23 /* second@2x.png in Resources */,
-				61E1C8F5173B47FB008F6815 /* locations.json in Resources */,
+				61DE0396173B4DDA005E585A /* locations.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
